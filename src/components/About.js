@@ -79,13 +79,13 @@ const About = () => {
         <AboutContainer>
           <AboutContent data-aos="fade-right">
             <AboutText>
-              I am an Aerospace Engineer with a deep interest on Rocket Technologies and Aircraft Design. My main aim is to work and realise vertical landing of rockets.
+              I am an Aerospace Engineer with a deep interest on Rocket Technologies, Aerospace Manufacturing and Aircraft Design. My main aim is to work and realise vertical landing of rockets.
             </AboutText>
             <AboutText>
               As a GATE 2025 Qualified engineer, I've developed expertise in using various simulation software like ANSYS, OpenFOAM, and GasTurb. My research internships at prestigious institutions like IIT Kharagpur and IIT Bombay have allowed me to work on challenging aerospace engineering problems, deepening my understanding of fluid dynamics and thermal systems.
             </AboutText>
             <AboutText>
-              Through my projects and research work, I have gained hands-on experience in designing and analyzing complex aerospace systems. I am passionate about leveraging advanced computational tools and innovative engineering approaches to develop sustainable solutions for modern aerospace challenges. My commitment to continuous learning and problem-solving drives me to explore cutting-edge technologies in propulsion, structures, and control systems.
+              Through my projects and research work, I have gained hands-on experience in designing and analyzing complex aerospace systems. I am passionate about leveraging advanced computational tools and innovative engineering approaches to develop sustainable solutions for modern aerospace challenges. My commitment to continuous learning and problem-solving drives me to explore cutting-edge technologies in aerospace technologies and advanced manufacturing.
             </AboutText>
           </AboutContent>
           
