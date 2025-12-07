@@ -97,8 +97,22 @@ const About = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
+              <School>Indian Institute of Space Science & Technology (IIST)</School>
+              <Degree>M.Tech in Manufacturing Technology, Dept. of Aerospace Engineering</Degree>
+              <DateLocation>
+                <span>2025 - 2027</span>
+                <span>Thiruvananthapuram, Kerala</span>
+              </DateLocation>
+            </EducationItem>
+            
+            <EducationItem 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
+              viewport={{ once: true }}
+            >
               <School>Amity University Mumbai</School>
-              <Degree>B.Tech in Aerospace Engineering — CGPA: 8.27</Degree>
+              <Degree>B.Tech in Aerospace Engineering — CGPA: 8.28</Degree>
               <Degree>Minor in Business Management</Degree>
               <DateLocation>
                 <span>2021 - 2025</span>
@@ -109,7 +123,7 @@ const About = () => {
             <EducationItem 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               viewport={{ once: true }}
             >
               <School>St. Andrews Jr. College, Panvel</School>
@@ -123,7 +137,7 @@ const About = () => {
             <EducationItem 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
+              transition={{ duration: 0.5, delay: 0.45 }}
               viewport={{ once: true }}
             >
               <School>Convent of Jesus & Mary High School, Kharghar</School>

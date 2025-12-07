@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { FaArrowDown, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaArrowDown, FaLinkedin, FaGithub, FaEnvelope, FaDownload } from 'react-icons/fa';
 import ParticleBackground from './ParticleBackground';
 // Add this import (create an assets folder in your src directory and place your image there)
 import profileImage from '../assets/profile.jpg'; // Replace with your actual image path
@@ -70,6 +70,30 @@ const Badge = styled(motion.div)`
   font-weight: 500;
   margin-bottom: 30px;
   box-shadow: 0 5px 15px rgba(101, 31, 255, 0.4);
+`;
+
+const ResumeButton = styled(motion.a)`
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(90deg, #3d5afe, #00b0ff);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 15px;
+  box-shadow: 0 5px 15px rgba(61, 90, 254, 0.4);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(61, 90, 254, 0.6);
+  }
+  
+  svg {
+    font-size: 1.1rem;
+  }
 `;
 
 const SocialLinks = styled.div`
@@ -144,6 +168,19 @@ const Hero = () => {
         >
           GATE 2025 Qualified
         </Badge>
+        
+        <ResumeButton 
+          href="./Pranay_Resume.pdf" 
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.3, delay: 0.3 }}
+          whileHover={{ scale: 1.05 }}
+        >
+          <FaDownload /> Download Resume
+        </ResumeButton>
         
         <SocialLinks>
           <SocialIcon 

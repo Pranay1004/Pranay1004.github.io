@@ -181,6 +181,27 @@ const Experience = () => {
             <TimelineDot>
               <FaBriefcase color="#fff" />
             </TimelineDot>
+            <TimelineDate>Mar 2025 - Aug 2025</TimelineDate>
+            <TimelineContent 
+              className="content"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+            >
+              <ExperienceTitle>Research Assistant</ExperienceTitle>
+              <ExperiencePlace>FOSSEE, Indian Institute of Technology, Bombay</ExperiencePlace>
+              <ExperienceDescription>
+                <li>Mentoring interns and fellows on simulation projects, ensuring technical depth and quality</li>
+                <li>Collaborating on national workshops and capacity-building programs for CFD outreach</li>
+              </ExperienceDescription>
+            </TimelineContent>
+          </TimelineItem>
+          
+          <TimelineItem>
+            <TimelineDot>
+              <FaBriefcase color="#fff" />
+            </TimelineDot>
             <TimelineDate>Jun 2024 - Jul 2024</TimelineDate>
             <TimelineContent 
               className="content"

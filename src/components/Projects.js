@@ -67,52 +67,52 @@ const ProjectDescription = styled.p`
 const projectsData = [
   {
     id: 1,
-    title: "Computational Analysis of a Spiked Blunt Body Using ANSYS Fluent",
-    year: "2023",
-    description: "Conducted CFD analysis to study the aerodynamic characteristics of a spiked blunt body, focusing on drag reduction and flow separation.",
-    icon: <FaWind />
+    title: "Development of Random Positioning Machine for Simulating Microgravity on Earth",
+    year: "2025",
+    description: "M.Tech course project focusing on model development and digital twin technology for microgravity simulation applications.",
+    icon: <FaRocket />
   },
   {
     id: 2,
-    title: "Numerical Simulation of Flow Over a 2D Prism Using OpenFOAM",
-    year: "2023",
-    description: "Performed steady-state CFD simulations to analyze the flow behavior around a 2D prism, evaluating pressure distribution and vortex shedding using simpleFoam.",
-    icon: <FaCode />
+    title: "Advancement in Affordable and Accessible Avionics Control Systems for Modern Rocketry",
+    year: "2025",
+    description: "B.Tech final project: Developed cost-effective, robust avionics for model rocketry, focused on lightweight structures and reliability.",
+    icon: <FaRocket />
   },
   {
     id: 3,
-    title: "Conceptual Design of a UAV for Mars Exploration",
+    title: "Autonomous Drone Navigation in GPS-Denied Martian Terrain",
     year: "2024",
-    description: "Worked on a preliminary UAV design for Mars exploration at NACDEC VII, considering aerodynamic feasibility, propulsion, and environmental constraints.",
-    icon: <FaRocket />
-  },
-  {
-    id: 4,
-    title: "Thermal Fluid Flow Simulation of a U-Bend Duct Using OpenFOAM",
-    year: "2025",
-    description: "Simulated conjugate heat transfer and fluid flow through a U-bend duct to assess temperature gradients and flow characteristics using buoyantPimpleFoam.",
-    icon: <FaWind />
-  },
-  {
-    id: 5,
-    title: "Development of Brain Tumor Detection using Scilab for Cancer",
-    year: "2025",
-    description: "Implemented a brain tumor detection system using Scilab, leveraging image processing techniques to identify cancerous regions in medical scans.",
-    icon: <FaBrain />
-  },
-  {
-    id: 6,
-    title: "Autonomous Navigation of a Drone in GPS-Denied Martian Terrain",
-    year: "2025",
-    description: "LiDAR Navigation System Load for autonomous navigation solution for a drone using computer vision, sensor fusion, and flight control algorithms.",
+    description: "IROC-U competition: Systems Engineer managing sensor fusion, script development and adherence to competition outcomes for autonomous navigation.",
     icon: <FaPlane />
   },
   {
-    id: 7,
-    title: "Conceptual Design of a Supersonic UAV for Military Applications",
-    year: "2025",
-    description: "Contributions to the conceptual design of a supersonic UAV for military operations at NACDEC VIII, focusing on aerodynamics, propulsion, and mission adaptability.",
+    id: 4,
+    title: "Conceptual Supersonic UAV Design for Military Applications",
+    year: "2024",
+    description: "NACDEC VIII: Team mentor contributions to aerodynamic and propulsion system design for supersonic flight in military applications.",
     icon: <FaRocket />
+  },
+  {
+    id: 5,
+    title: "Numerical Study of Non-Newtonian Fluid Flow in Sinusoidal Microchannel",
+    year: "2023",
+    description: "IIT Bombay CFD internship: Performed literature survey, scientific writing, and rheological model implementation using OpenFOAM.",
+    icon: <FaWind />
+  },
+  {
+    id: 6,
+    title: "Analysis of Variable Cycle Engine Performance Using GasTurb",
+    year: "2024",
+    description: "IIT Kharagpur aeroengine internship: Conducted parametric studies and optimized engine parameters for efficiency using Gasturb software.",
+    icon: <FaRocket />
+  },
+  {
+    id: 7,
+    title: "Computational Analysis of a Spiked Blunt Body Using ANSYS Fluent",
+    year: "2023",
+    description: "CFD analysis of spiked blunt body aerodynamics, focusing on drag reduction and flow separation characteristics.",
+    icon: <FaWind />
   }
 ];
 

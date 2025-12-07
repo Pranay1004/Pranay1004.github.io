@@ -125,11 +125,25 @@ const ConferenceItem = styled(motion.li)`
 
 const Skills = () => {
   const softwareSkills = [
-    "Ansys Workbench", "OpenFOAM", "Paraview", "AutoCAD", "Fusion 360", 
-    "GasTurb", "OpenVSP", "SolidWorks", "Scilab", "Matlab", "Simulink", "MS Office"
+    "Abaqus", "Ansys Fluent", "Ansys Workbench", "AutoCAD", "CNCTRAIN", "Fusion 360", 
+    "GasTurb", "ICEM", "OpenFOAM", "OpenVSP", "Paraview", "Scilab", "SolidWorks", "Matlab", "Simulink", "MS Office"
   ];
   
+  const programmingSkills = ["C/C++", "Java", "Python"];
+  
   const softSkills = ["Leadership", "Effective Communication", "Public Speaking"];
+  
+  const interests = [
+    "Advanced Manufacturing",
+    "Finite Element Analysis",
+    "Aircraft & UAV Design",
+    "Computational Fluid Dynamics",
+    "Computer Aided Manufacturing",
+    "Aerospace Composites",
+    "Propulsion Systems",
+    "Aerospace Structures",
+    "Flight Mechanics"
+  ];
   
   const languages = [
     { name: "Hindi", level: "Native" },
@@ -176,6 +190,19 @@ const Skills = () => {
               ))}
             </SkillGrid>
             
+            <CategoryTitle style={{ marginTop: '30px' }}>Programming & Scripting</CategoryTitle>
+            <SkillGrid>
+              {programmingSkills.map((skill, index) => (
+                <SkillBadge
+                  key={index}
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: 'spring', stiffness: 300 }}
+                >
+                  {skill}
+                </SkillBadge>
+              ))}
+            </SkillGrid>
+            
             <CategoryTitle style={{ marginTop: '30px' }}>Soft Skills</CategoryTitle>
             <SkillGrid>
               {softSkills.map((skill, index) => (
@@ -201,6 +228,19 @@ const Skills = () => {
                 </LanguageBadge>
               ))}
             </LanguageContainer>
+            
+            <CategoryTitle style={{ marginTop: '30px' }}>Areas of Interest</CategoryTitle>
+            <SkillGrid>
+              {interests.map((interest, index) => (
+                <SkillBadge
+                  key={index}
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: 'spring', stiffness: 300 }}
+                >
+                  {interest}
+                </SkillBadge>
+              ))}
+            </SkillGrid>
           </SkillCategory>
           
           <SkillCategory
