@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Section, Container, SectionTitle } from '../styles/AppStyles';
-import { FaRocket, FaWind, FaPlane, FaRobot, FaBrain, FaCode } from 'react-icons/fa';
+import { FaRocket, FaPlane } from 'react-icons/fa';
 
 const ProjectsGrid = styled.div`
   display: grid;
@@ -92,27 +92,6 @@ const projectsData = [
     year: "2024",
     description: "NACDEC VIII: Team mentor contributions to aerodynamic and propulsion system design for supersonic flight in military applications.",
     icon: <FaRocket />
-  },
-  {
-    id: 5,
-    title: "Numerical Study of Non-Newtonian Fluid Flow in Sinusoidal Microchannel",
-    year: "2023",
-    description: "IIT Bombay CFD internship: Performed literature survey, scientific writing, and rheological model implementation using OpenFOAM.",
-    icon: <FaWind />
-  },
-  {
-    id: 6,
-    title: "Analysis of Variable Cycle Engine Performance Using GasTurb",
-    year: "2024",
-    description: "IIT Kharagpur aeroengine internship: Conducted parametric studies and optimized engine parameters for efficiency using Gasturb software.",
-    icon: <FaRocket />
-  },
-  {
-    id: 7,
-    title: "Computational Analysis of a Spiked Blunt Body Using ANSYS Fluent",
-    year: "2023",
-    description: "CFD analysis of spiked blunt body aerodynamics, focusing on drag reduction and flow separation characteristics.",
-    icon: <FaWind />
   }
 ];
 

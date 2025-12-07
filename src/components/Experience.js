@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Section, Container, SectionTitle } from '../styles/AppStyles';
-import { FaBriefcase, FaFlask, FaSearch } from 'react-icons/fa';
+import { FaBriefcase, FaFlask } from 'react-icons/fa';
 
 const TimelineContainer = styled.div`
   position: relative;
@@ -239,27 +239,6 @@ const Experience = () => {
                 <li>Research Title: Numerical Study of Non-Newtonian Fluid across Sinusoidal Microchannel</li>
                 <li>Performed literature survey, scientific writing, and pre/post-processing using OpenFOAM</li>
                 <li>Implemented rheological models in open-source CFD software for simulations</li>
-              </ExperienceDescription>
-            </TimelineContent>
-          </TimelineItem>
-          
-          <TimelineItem>
-            <TimelineDot>
-              <FaSearch color="#fff" />
-            </TimelineDot>
-            <TimelineDate>Jun 2019 - Jul 2019</TimelineDate>
-            <TimelineContent 
-              className="content"
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-            >
-              <ExperienceTitle>Asteroid Hunter</ExperienceTitle>
-              <ExperiencePlace>International Astronomical Search Collaboration (IASC)</ExperiencePlace>
-              <ExperienceDescription>
-                <li>Processed astronomical data from sky surveys using specialized software ASTROMETRICA</li>
-                <li>Conducted searches through large datasets, resulting in the discovery of 22 preliminary asteroids</li>
               </ExperienceDescription>
             </TimelineContent>
           </TimelineItem>
