@@ -84,6 +84,9 @@ const About = () => {
             <AboutText>
               As a GATE 2025 Qualified engineer, I've developed expertise in using various simulation software like ANSYS, OpenFOAM, and GasTurb. My research internships at prestigious institutions like IIT Kharagpur and IIT Bombay have allowed me to work on challenging aerospace engineering problems, deepening my understanding of fluid dynamics and thermal systems.
             </AboutText>
+            <AboutText>
+              Through my projects and research work, I have gained hands-on experience in designing and analyzing complex aerospace systems. I am passionate about leveraging advanced computational tools and innovative engineering approaches to develop sustainable solutions for modern aerospace challenges. My commitment to continuous learning and problem-solving drives me to explore cutting-edge technologies in propulsion, structures, and control systems.
+            </AboutText>
           </AboutContent>
           
           <EducationContainer data-aos="fade-left">
