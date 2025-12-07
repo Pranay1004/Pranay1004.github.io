@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaArrowDown, FaLinkedin, FaGithub, FaEnvelope, FaDownload } from 'react-icons/fa';
 import ParticleBackground from './ParticleBackground';
-// Add this import (create an assets folder in your src directory and place your image there)
-import profileImage from '../assets/profile.jpg'; // Replace with your actual image path
 
 const HeroSection = styled.section`
   height: 100vh;
@@ -141,7 +139,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <img src={profileImage} alt="Pranay Kumar Pandey" />
+          <img src="/Profile.png" alt="Pranay Kumar Pandey" />
         </ProfileImageContainer>
         
         <Name

@@ -22,6 +22,7 @@ const AboutText = styled.p`
   line-height: 1.8;
   margin-bottom: 20px;
   color: #d8d8d8;
+  text-align: justify;
 `;
 
 const EducationContainer = styled.div`
